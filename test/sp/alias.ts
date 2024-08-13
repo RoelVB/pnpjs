@@ -7,6 +7,7 @@ import "@pnp/sp/files/folder";
 import "@pnp/sp/lists/web";
 import { combine } from "@pnp/core";
 import { SPQueryable } from "@pnp/sp";
+import { URL } from 'url'; // To prevent typing error in the "parameter parsing" test
 
 describe("Alias Parameters", function () {
 
